@@ -1,8 +1,12 @@
 import { useState } from 'react'
-import Header from './Header'
+import Header from '../components/Header'
+import Main from '../components/Main'
 const App = () => {
   return (
-   <Header/>
+    <>
+      <Header />
+      <Main />
+    </>
   )
 }
 
