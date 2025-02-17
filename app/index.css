@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+a{
+    color: inherit;
+}
+
+/* CSS do header  */
+
+.Header{
+    padding: 20px;
+    display: flex;
+}
