@@ -1,6 +1,8 @@
 import React from "react";
+import Artista from "./Artista";
 
 const Main = () => {
+
     return (
         <div className="Main">
             <div className="Item-list">
@@ -9,8 +11,8 @@ const Main = () => {
                 </h2>
                 <a className="Item-list__link" href="/">Mostrar tudo</a>
             </div>
-            <div className="Single-Item">
-                
+            <div className="Artistas">
+                <Artista />
             </div>
         </div>
     )

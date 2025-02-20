@@ -60,3 +60,26 @@ a{
 .Main__link :hover{
     text-decoration: underline;
 }
+
+/* Css do Artista */
+
+
+.Artistas{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+}
+.Artista{
+    max-width: 100px;
+}
+
+.Artista_img{
+    height: 140px;
+    display: flex
+;
+    width: 140%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
