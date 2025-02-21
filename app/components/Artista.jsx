@@ -8,11 +8,14 @@ const Artista = () => {
 
     artistArray.map((artista) => (
       <div className="Artista" key={artista.id}>
-        <img className="Artista_img" src={artista.image} alt="imagem do artista" />
-        <img className="Artista_button" src={playButton} alt="" />
-        <p className="Artista_text">
-          {artista.name}
-        </p>
+        <div className="Artista_imagens">
+          <img className="Artista_img" src={artista.image} alt="imagem do artista" />
+          <img className="Artista_button" src={playButton} alt="" />
+        </div>
+        <a href="/" className="Artista_texts" >
+          <p className="Artista_text">{artista.name}</p>
+          <p>artista</p>
+        </a>
       </div>
     ))
 
